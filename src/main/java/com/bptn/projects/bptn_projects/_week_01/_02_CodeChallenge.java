@@ -70,7 +70,7 @@ public class _02_CodeChallenge {
 		        // Take user input for operation choice
 		        System.out.print("Enter your choice: ");
 		        try { 
-		        	 choice = scanner.nextInt();
+		        	choice = scanner.nextInt();
 		        }
 		        catch(InputMismatchException e) {
 		        	System.out.println("Error: " + e);
